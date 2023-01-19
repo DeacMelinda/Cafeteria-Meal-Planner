@@ -1,0 +1,56 @@
+.arrow {
+    max-width:30px;
+    max-height: 30px;
+    border:0ch;
+    position: absolute;
+}
+
+.arrow-btn {
+    width: 35px;
+    height: 30px;
+    position: relative;
+    background: transparent;
+    border: 0px;
+}
+
+.avatars {
+    max-width: 150px;
+    max-height: 175px;
+}
+
+.avatar-list {
+    align-items: flex-start;
+    display: flex;
+    flex-wrap: nowrap;
+    list-style: none;
+    margin: 1rem 0;
+    overflow-x: scroll;
+    padding: 0 0 0 1rem;
+    scroll-padding-left: 1rem;
+    scroll-snap-type: x mandatory;
+    scrollbar-width: 2px;
+    scroll-behavior: smooth;
+}
+
+.avatar-list::-webkit-scrollbar {
+    height: 6px;
+}
+
+.avatar-list::-webkit-scrollbar-thumb {
+    background-color: #ccc;
+}
+
+.avatar-list::-webkit-track {
+    background-color: var(--bg-track);
+}
+
+.avatar-list li {
+    padding: 0 1rem 0 0;
+    scroll-snap-align: start; /* or: center */
+    scroll-snap-stop: always;
+}
+
+.list-containter {
+    max-width: 400px;
+    
+}

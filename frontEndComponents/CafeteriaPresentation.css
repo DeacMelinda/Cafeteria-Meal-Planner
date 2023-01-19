@@ -1,0 +1,56 @@
+.caf {
+    border-style: solid;
+    width: 500px;
+    position: absolute;
+    height: fit-content;
+    max-height: 300px;
+    overflow-y: auto;
+}
+
+.buton {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    width: 30px;
+    height: 30px;
+    background: transparent;
+    border:none;
+}
+
+.imaginea {
+    position: absolute;
+    top: 4px;
+    right: 4px;
+    width: 30px;
+    height: 30px;
+}
+
+.picture-div {
+    width: 10px;
+}
+
+.details-div {
+    margin-left: 19%;
+    margin-right: 5%;
+    padding: 5px;
+    height: 220px;
+    overflow-y: auto;
+
+    scroll-padding-left: 1rem;
+    scroll-snap-type: x mandatory;
+    scrollbar-width: 2px;
+    scroll-behavior: smooth;
+
+}
+
+.details-div::-webkit-scrollbar {
+    height: 2px;
+}
+
+.details-div::-webkit-scrollbar-thumb {
+    background-color: #ccc;
+}
+
+.details-div::-webkit-track {
+    background-color: var(--bg-track);
+}

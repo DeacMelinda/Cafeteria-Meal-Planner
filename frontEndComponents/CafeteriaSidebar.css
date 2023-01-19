@@ -1,0 +1,33 @@
+.sidenav {
+    height: 100%;
+    width: 160px;
+    position: fixed;
+    z-index: 3000;
+    top: 0;
+    right: 0;
+    background-color: rgba(176, 207, 62, 0.515);
+    overflow-x: hidden;
+    justify-items: center;
+    align-items: center;
+  }
+  
+  .sidenav button {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 15px;
+    color: white;
+    border: none;
+    background: transparent;
+    position:relative;
+  }
+  
+  .sidenav button:hover:not(.active) {
+    background-color: rgb(154, 177, 50);
+    color: white;
+  }
+
+  .active {
+    background-color: #9ecd77;
+  }
+
+  

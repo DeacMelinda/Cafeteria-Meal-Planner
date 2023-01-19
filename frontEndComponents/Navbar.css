@@ -1,0 +1,38 @@
+.navul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgba(176, 207, 62, 0.515);
+    position: fixed;
+    top: 0;
+    width: 100%;
+    right: 0;
+    z-index: 40;
+  }
+  
+  .navli {
+    float: left;
+  }
+  
+  .navli button {
+    padding: 6px 8px 6px 16px;
+
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    border: none;
+    background: transparent;
+    position:relative;
+  }
+  
+  .navli button:hover:not(.active) {
+    background-color: rgb(175, 199, 71);
+    color: white;
+  }
+  
+  .active {
+    background-color: #9ecd77;
+  }

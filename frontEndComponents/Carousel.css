@@ -1,0 +1,41 @@
+.list-containter1 {
+    width: 1300px;
+    /*left: 10px;*/
+    /*justify-content:left;*/
+    margin-left: -200px;
+}
+.card-list {
+    align-items: flex-start;
+    width: 100%;
+    
+    display: flex;
+    flex-wrap: nowrap;
+    list-style: none;
+    margin: 1rem 0;
+    overflow-x: scroll;
+    padding: 0 0 0 1rem;
+    scroll-padding-left: 1rem;
+    scroll-snap-type: x mandatory;
+    scrollbar-width: 2px;
+    scroll-behavior: smooth;
+}
+
+.card-list::-webkit-scrollbar {
+    height: 6px;
+}
+
+.card-list::-webkit-scrollbar-thumb {
+    background-color: #ccc;
+}
+
+.card-list::-webkit-track {
+    background-color: var(--bg-track);
+}
+
+.card-list li {
+    padding: 0 1rem 0 0;
+    scroll-snap-align: start; /* or: center */
+    scroll-snap-stop: always;
+}
+
+

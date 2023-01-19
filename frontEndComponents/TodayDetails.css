@@ -1,0 +1,18 @@
+.tables {
+    top:10%;
+    border: 1px solid;
+    color: black;
+}
+
+.th, td {
+    border: 1px solid;
+} 
+
+.cont {
+    max-height: 600px;
+    overflow-y: auto;
+}
+
+.cont::-webkit-scrollbar {
+    height: 6px;
+}

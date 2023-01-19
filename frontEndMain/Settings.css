@@ -1,0 +1,23 @@
+.settings {
+    /* justify-content: left;
+    align-items: left; */
+    width: 50%;
+    text-align: center;
+    min-height: 100vh;
+    align-items: center;
+    justify-content: center; 
+    color: white;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    padding: 5rem;
+    border: 1px solid white;
+    border-radius: 10px;
+    margin: 0.5rem;
+
+}
+
+.settings-form {
+    display: flex;
+    flex-direction: column;
+}
